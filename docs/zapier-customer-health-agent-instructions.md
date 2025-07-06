@@ -9,29 +9,29 @@
 ## 🏗️ System Architecture
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Data Sources  │───▶│ Raw Data Table   │───▶│ Manual Merge    │
-│                 │    │                  │    │                 │
-│ • HubSpot CRM   │    │ All customer    │    │ Consolidate     │
-│ • Simulated     │    │ events & data    │    │ per customer    │
-│   Support       │    │                  │    │                 │
-│ • Simulated     │    │                  │    │                 │
-│   Platform      │    │                  │    │                 │
-│ • Simulated     │    │                  │    │                 │
-│   Onboarding    │    │                  │    │                 │
-│ • Simulated     │    │                  │    │                 │
-│   Plan Usage    │    │                  │    │                 │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                                                         │
-                                                         ▼
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│ VitalEdge       │◀───│ Health Scores    │◀───│ Consolidated    │
-│ Reports Table   │    │ Table            │    │ Customer Data   │
-│                 │    │                  │    │ File            │
-│ Weekly intel    │    │ AI-calculated    │    │ health scores    │
-│ reports         │    │                  │    │ One row per     │
-│                 │    │                  │    │ customer        │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│   Data Sources  │────▶│ Raw Data Table   │────▶│ Manual Merge    │
+│                 │     │                  │     │                 │
+│ • HubSpot CRM   │     │ All customer     │     │ Consolidate     │
+│ • Simulated     │     │ events & data    │     │ per customer    │
+│   Support       │     │                  │     │                 │
+│ • Simulated     │     │                  │     │                 │
+│   Platform      │     │                  │     │                 │
+│ • Simulated     │     │                  │     │                 │
+│   Onboarding    │     │                  │     │                 │
+│ • Simulated     │     │                  │     │                 │
+│   Plan Usage    │     │                  │     │                 │
+└─────────────────┘     └──────────────────┘     └─────────────────┘
+                                                           │
+                                                           ▼
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│ VitalEdge       │◀────│ Health Scores    │◀────│ Consolidated    │
+│ Reports Table   │     │ Table            │     │ Customer Data   │
+│                 │     │                  │     │ File            │
+│ Weekly intel    │     │ JavaScript       │     │                 │
+│ reports         │     │ health scores    │     │ One row per     │
+│                 │     │                  │     │ customer        │
+└─────────────────┘     └──────────────────┘     └─────────────────┘
 ```
 
 ## 📋 Prerequisites
@@ -153,6 +153,15 @@ const overallHealthScore = Math.min(
 - **Purpose**: Generate executive intelligence reports with revenue analysis
 
 **ARR Calculation Logic**:
+
+The system calculates dynamic ARR based on customer plan utilization, assuming higher utilization indicates premium plan tiers:
+- **Base ARR**: $12,000 (standard plan)
+- **Premium Calculation**: Plan utilization % drives additional revenue  
+- **Multiplier**: 2x the base ARR for fully utilized plans
+- **Result**: ARR ranges from $12K (low utilization) to $36K (high utilization)
+
+**Example**: Customer with 80% plan utilization = $12,000 + ($12,000 × 0.80 × 2) = $31,200 ARR
+
 ```javascript
 // Dynamic ARR calculation based on customer health and plan utilization
 const calculateCustomerARR = (customer) => {
