@@ -229,33 +229,29 @@ Data Sources: Platform Usage, Support Intelligence, Onboarding Analytics, Plan U
 
 🎯 VITALEDGE EXECUTIVE INTELLIGENCE
 
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           ⚡ VITALEDGE EXECUTIVE SUMMARY                        │
-├─────────────────┬─────────────────┬─────────────────┬─────────────────────────┤
-│   📈 PORTFOLIO  │  ⚠️ AT RISK     │  🚀 EXPANSION   │  📊 AVERAGE HEALTH     │
-│   HEALTH        │  CUSTOMERS      │  OPPORTUNITIES  │  SCORE                 │
-├─────────────────┼─────────────────┼─────────────────┼─────────────────────────┤
-│   78/100        │  3              │  4              │  78/100                │
-│   (Good)        │  (25%)          │  ($192K ARR)    │  (Trending Up)         │
-└─────────────────┴─────────────────┴─────────────────┴─────────────────────────┘
+⚡ VITALEDGE EXECUTIVE SUMMARY
+================================================================================
+
+📈 PORTFOLIO HEALTH          ⚠️ AT RISK CUSTOMERS         🚀 EXPANSION OPPORTUNITIES    📊 AVERAGE HEALTH SCORE
+78/100 (Good)               3 (25%)                     4 ($192K ARR)                78/100 (Trending Up)
 
 VITALEDGE CUSTOMER INTELLIGENCE MATRIX
-════════════════════════════════════════════════════════════════════════════════════
+================================================================================
 
-CUSTOMER NAME        │HEALTH│STATUS  │ZAP  │PLAN │ONBOARD│SUPPORT│CHURN RISK│VITALEDGE RECOMMENDATION
-─────────────────────┼──────┼────────┼─────┼─────┼───────┼───────┼──────────┼────────────────────────
-🟢 TechCorp          │  89  │Healthy │ 85  │ 92  │ 100   │  95   │Low       │👑 Champion Status
-🟢 InnovateLabs      │  84  │Healthy │ 78  │ 88  │  95   │  90   │Low       │🚀 Expansion Ready
-🟢 DataFlow Inc      │  82  │Healthy │ 78  │ 85  │  90   │  88   │Low       │🚀 Expansion Ready
-🟢 CloudTech         │  76  │Healthy │ 75  │ 80  │  85   │  82   │Low       │Maintain Excellence
-🟢 StartupX          │  74  │Healthy │ 72  │ 78  │  80   │  78   │Low       │🚀 Expansion Ready
-🟢 ScaleUp Co        │  71  │Healthy │ 70  │ 75  │  78   │  75   │Low       │Maintain Excellence
-🟡 GrowthCorp        │  65  │At Risk │ 65  │ 70  │  70   │  65   │Medium    │📞 Strategic Check-in
-🟡 BuildTech         │  58  │At Risk │ 58  │ 65  │  65   │  60   │Medium    │📞 Strategic Check-in
-🟡 DevTools Inc      │  52  │At Risk │ 52  │ 60  │  60   │  55   │Medium    │📞 Strategic Check-in
-🔴 LegacyInc         │  35  │Critical│ 35  │ 40  │  45   │  40   │High      │🚨 Urgent Intervention
-🟢 FinTech Solutions │  80  │Healthy │ 78  │ 85  │  88   │  85   │Low       │🚀 Expansion Ready
-🟢 AIStartup         │  77  │Healthy │ 75  │ 82  │  85   │  80   │Low       │Maintain Excellence
+CUSTOMER NAME         HEALTH  STATUS    ZAP   PLAN  ONBOARD SUPPORT CHURN RISK  VITALEDGE RECOMMENDATION
+---------------------------------------------------------------------------------------------
+🟢 TechCorp             89    Healthy    85    92     100     95     Low        👑 Champion Status
+🟢 InnovateLabs         84    Healthy    78    88      95     90     Low        🚀 Expansion Ready
+🟢 DataFlow Inc         82    Healthy    78    85      90     88     Low        🚀 Expansion Ready
+🟢 CloudTech            76    Healthy    75    80      85     82     Low        Maintain Excellence
+🟢 StartupX             74    Healthy    72    78      80     78     Low        🚀 Expansion Ready
+🟢 ScaleUp Co           71    Healthy    70    75      78     75     Low        Maintain Excellence
+🟡 GrowthCorp           65    At Risk    65    70      70     65     Medium     📞 Strategic Check-in
+🟡 BuildTech            58    At Risk    58    65      65     60     Medium     📞 Strategic Check-in
+🟡 DevTools Inc         52    At Risk    52    60      60     55     Medium     📞 Strategic Check-in
+🔴 LegacyInc            35    Critical   35    40      45     40     High       🚨 Urgent Intervention
+🟢 FinTech Solutions    80    Healthy    78    85      88     85     Low        🚀 Expansion Ready
+🟢 AIStartup            77    Healthy    75    82      85     80     Low        Maintain Excellence
 
 ⚠️ IMMEDIATE INTELLIGENCE REQUIRED (Next 24 Hours)
 ════════════════════════════════════════════════════════════════════════════════════
