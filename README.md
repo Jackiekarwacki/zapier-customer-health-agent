@@ -26,14 +26,14 @@ The **Zapier Customer Health Score Agent** is a comprehensive automation system 
 ## 📊 System Architecture
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Data Sources  │───▶│  Zapier Engine   │───▶│  Health Scores  │
-│                 │    │                  │    │                 │
-│ • HubSpot CRM   │    │ • Data Collection│    │ • Risk Analysis │
-│ • Support Desk  │    │ • Score Calculation│   │ • Recommendations│
-│ • Product Usage │    │ • Alert Triggers │    │ • Automated Actions│
-│ • Onboarding   │    │ • Report Generation│   │ • Executive Reports│
-└─────────────────┘    └──────────────────┘    └─────────────────┘
+┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+│   Data Sources   │───▶│  Zapier Engine   │───▶│  Health Scores   │
+│                  │    │                  │    │                  │
+│ • HubSpot CRM    │    │ • Data Collection│    │ • Risk Analysis  │
+│ • Support Desk   │    │ • Score Calculation│   │ • Recommendations│
+│ • Product Usage  │    │ • Alert Triggers │    │ • Automated Actions│
+│ • Onboarding    │    │ • Report Generation│   │ • Executive Reports│
+└──────────────────┘    └──────────────────┘    └──────────────────┘
 ```
 
 ## 🎯 Features
