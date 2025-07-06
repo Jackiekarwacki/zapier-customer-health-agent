@@ -5,7 +5,6 @@
 Before starting, ensure you have:
 
 - [ ] **Zapier Professional Account** (required for multiple Zaps)
-- [ ] **OpenAI API Key** (get from platform.openai.com)
 - [ ] **HubSpot Account** (free tier available)
 - [ ] **Slack Workspace** (optional, for alerts)
 
@@ -16,7 +15,7 @@ Before starting, ensure you have:
 2. Create 3 tables:
    - **Health Scores** (main dashboard)
    - **Raw Data** (incoming events)
-   - **Config** (scoring rules)
+   - **VitalEdge Reports** (executive intelligence)
 
 ### Step 2: Set Up Data Collection (30 minutes)
 Create 5 Zaps:
@@ -26,11 +25,11 @@ Create 5 Zaps:
 4. **Schedule → Code → Tables** (simulated plan data)
 5. **Schedule → Code → Tables** (simulated onboarding data)
 
-### Step 3: Configure AI Processing (20 minutes)
+### Step 3: Configure Health Score Processing (20 minutes)
 1. Create the main health scoring Zap
-2. Add OpenAI API integration
-3. Configure the scoring algorithm
-4. Set up automated updates
+2. Add JavaScript code step for score calculation
+3. Configure the weighted scoring algorithm
+4. Set up automated health score updates
 
 ### Step 4: Set Up Alerts (15 minutes)
 1. Create Slack notification Zap
@@ -54,7 +53,7 @@ After setup, you should see:
 
 ### Common Issues:
 1. **No data flowing**: Check Zap triggers and connections
-2. **Health scores not calculating**: Verify OpenAI API key
+2. **Health scores not calculating**: Verify JavaScript code syntax
 3. **Alerts not sending**: Check Slack permissions
 4. **Reports blank**: Verify table field mappings
 

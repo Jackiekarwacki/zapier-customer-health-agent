@@ -1,9 +1,8 @@
 # 🎯 Zapier Customer Health Score Agent
 
-> **AI-powered customer health scoring system that monitors customer behavior across multiple platforms and triggers automated retention workflows**
+> **Intelligent customer health scoring system that monitors customer behavior across multiple platforms and triggers automated retention workflows**
 
 [![Built with Zapier](https://img.shields.io/badge/Built%20with-Zapier-FF4A00?style=flat-square&logo=zapier)](https://zapier.com)
-[![Powered by OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-412991?style=flat-square&logo=openai)](https://openai.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ## 🚀 Overview
@@ -31,9 +30,9 @@ The **Zapier Customer Health Score Agent** is a comprehensive automation system 
 │   Data Sources  │───▶│  Zapier Engine   │───▶│  Health Scores  │
 │                 │    │                  │    │                 │
 │ • HubSpot CRM   │    │ • Data Collection│    │ • Risk Analysis │
-│ • Support Desk  │    │ • AI Processing  │    │ • Recommendations│
-│ • Product Usage │    │ • Score Calculation│   │ • Automated Actions│
-│ • Onboarding   │    │ • Alert Triggers │    │ • Executive Reports│
+│ • Support Desk  │    │ • Score Calculation│   │ • Recommendations│
+│ • Product Usage │    │ • Alert Triggers │    │ • Automated Actions│
+│ • Onboarding   │    │ • Report Generation│   │ • Executive Reports│
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
@@ -41,7 +40,7 @@ The **Zapier Customer Health Score Agent** is a comprehensive automation system 
 
 ### Core Functionality
 - **🔍 Multi-Source Data Collection**: Automated ingestion from HubSpot, support systems, and product analytics
-- **🧠 AI-Powered Scoring**: OpenAI-driven health score calculation with weighted algorithms
+- **🧠 Intelligent Scoring**: JavaScript-powered health score calculation with weighted algorithms (AI integration available as optional enhancement)
 - **⚡ Real-Time Monitoring**: Continuous customer health tracking with instant alerts
 - **📈 Predictive Analytics**: Churn risk prediction and expansion opportunity identification
 - **🤖 Automated Workflows**: Trigger retention campaigns, alerts, and interventions
@@ -56,7 +55,7 @@ The **Zapier Customer Health Score Agent** is a comprehensive automation system 
 
 ### Data Processing Pipeline
 1. **Data Collection Zaps**: 5 automated workflows collecting customer data
-2. **AI Processing Engine**: OpenAI-powered health score calculation
+2. **JavaScript Processing Engine**: Weighted algorithm health score calculation (AI integration available as optional enhancement)
 3. **Intelligent Scoring**: Weighted algorithm considering:
    - Zap usage patterns (25% weight)
    - Platform adoption (22.5% weight)
@@ -67,7 +66,7 @@ The **Zapier Customer Health Score Agent** is a comprehensive automation system 
 
 ### Technology Stack
 - **Automation Platform**: Zapier (Professional Plan)
-- **AI Engine**: OpenAI GPT API
+- **Processing Engine**: JavaScript (AI enhancement optional)
 - **Data Storage**: Zapier Tables
 - **CRM Integration**: HubSpot
 - **Alerting**: Slack
@@ -77,12 +76,12 @@ The **Zapier Customer Health Score Agent** is a comprehensive automation system 
 
 ### Quantifiable Results
 - **Proactive Churn Prevention**: Identify at-risk customers 30-60 days before churn
-- **Revenue Protection**: Monitor $XXX,XXX+ ARR with automated risk alerts
+- **Revenue Protection**: Monitor ARR with automated risk alerts
 - **Expansion Identification**: Automatically flag upsell-ready customers
 - **Operational Efficiency**: 100% automated monitoring replacing manual processes
 
 ### ROI Metrics
-- **Cost**: ~$5-20/month (OpenAI API usage)
+- **Cost**: ~$0-20/month (depending on enhancement options)
 - **Time Saved**: 10+ hours/week of manual customer health analysis
 - **Revenue Impact**: Early identification of churn risks protecting significant ARR
 
@@ -90,7 +89,6 @@ The **Zapier Customer Health Score Agent** is a comprehensive automation system 
 
 ### Prerequisites
 - Zapier Professional account
-- OpenAI API access
 - HubSpot account (free tier available)
 - Slack workspace (optional)
 
@@ -182,9 +180,7 @@ Built by **Jacqueline Karwacki** as a demonstration of:
 - **Business intelligence** reporting
 
 ### 🔗 Connect
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Portfolio**: [Your Portfolio Website]
-- **Email**: [Your Email]
+- **LinkedIn**: [www.linkedin.com/in/jacqueline-karwacki-b275a41ba](https://www.linkedin.com/in/jacqueline-karwacki-b275a41ba)
 
 ---
 
