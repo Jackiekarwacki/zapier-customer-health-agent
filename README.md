@@ -186,4 +186,6 @@ Built by **Jacqueline Karwacki** as a demonstration of:
 
 ⭐ **Star this repository if you found it helpful!**
 
-*This project demonstrates advanced automation skills, AI integration, and customer success system design using modern no-code tools.* 
+*This project demonstrates advanced automation skills, AI integration, and customer success system design using modern no-code tools.*
+
+<!-- Updated: System architecture diagram aligned --> 
