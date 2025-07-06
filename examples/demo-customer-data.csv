@@ -1,0 +1,21 @@
+customer_id,company_name,plan_tier,monthly_task_limit,tasks_used_30d,task_utilization_pct,active_zaps,total_zaps_created,last_login_days_ago,premium_apps_used,support_tickets_30d,avg_response_hours,nps_score,account_value_monthly,contract_start_date,contract_end_date,industry,team_size,activation_date,days_since_activation
+cust_001,TechStart Inc,Professional,2000,1650,82.5,12,15,2,8,1,4,8,19.99,2023-06-15,2024-06-15,Technology,5,2023-06-16,223
+cust_002,RetailCorp,Team,10000,1200,12.0,3,8,15,2,6,48,3,69.00,2023-01-10,2024-01-10,Retail,25,2023-01-15,376
+cust_003,FinanceFlow,Professional,5000,3800,76.0,18,22,1,12,2,8,9,29.99,2023-08-20,2024-08-20,Finance,8,2023-08-21,158
+cust_004,StartupXYZ,Free,100,95,95.0,2,2,28,0,8,72,2,0.00,2023-12-01,2024-12-01,Technology,2,2023-12-05,52
+cust_005,MegaCorp,Enterprise,50000,42000,84.0,45,52,1,25,0,0,9,599.00,2022-03-15,2025-03-15,Enterprise,150,2022-03-16,679
+cust_006,HealthTech,Professional,2000,900,45.0,6,12,8,4,3,24,6,19.99,2023-09-10,2024-09-10,Healthcare,12,2023-09-12,137
+cust_007,EduSoft,Team,10000,7500,75.0,22,28,3,15,1,6,8,69.00,2023-05-01,2024-05-01,Education,18,2023-05-03,268
+cust_008,ManufacturingCo,Professional,5000,1750,35.0,8,15,12,5,4,36,4,29.99,2023-07-15,2024-07-15,Manufacturing,10,2023-07-18,192
+cust_009,ConsultingPro,Team,10000,8900,89.0,35,42,2,18,2,12,9,69.00,2023-04-10,2024-04-10,Consulting,22,2023-04-12,288
+cust_010,DevAgency,Professional,5000,4200,84.0,25,30,4,20,1,8,8,29.99,2023-10-05,2024-10-05,Technology,15,2023-10-07,111
+cust_011,NonProfitOrg,Professional,2000,400,20.0,4,6,20,2,5,48,5,19.99,2023-11-01,2024-11-01,Non-Profit,8,2023-11-05,82
+cust_012,EcommercePlus,Team,10000,9200,92.0,38,45,1,22,0,0,9,69.00,2023-02-20,2024-02-20,E-commerce,28,2023-02-22,338
+cust_013,LegalFirm,Professional,2000,1100,55.0,8,12,6,6,2,16,7,19.99,2023-08-01,2024-08-01,Legal,6,2023-08-03,177
+cust_014,MarketingCo,Team,10000,6800,68.0,28,35,5,16,3,20,7,69.00,2023-06-01,2024-06-01,Marketing,20,2023-06-03,237
+cust_015,SmallBiz,Free,100,85,85.0,2,3,7,0,2,24,6,0.00,2024-01-15,2025-01-15,Retail,3,2024-01-18,8
+cust_016,GrowthCorp,Enterprise,25000,18500,74.0,32,40,2,28,1,4,9,299.00,2023-03-01,2024-03-01,Technology,75,2023-03-03,328
+cust_017,ChurnRisk,Professional,2000,150,7.5,1,5,45,1,12,96,1,19.99,2023-12-15,2024-12-15,Technology,4,2023-12-20,38
+cust_018,PowerUser,Team,10000,9800,98.0,42,48,1,24,0,0,10,69.00,2023-01-05,2024-01-05,SaaS,32,2023-01-07,381
+cust_019,MidSizeCorp,Professional,5000,3200,64.0,16,20,3,10,2,12,8,29.99,2023-09-20,2024-09-20,Finance,25,2023-09-22,127
+cust_020,NewCustomer,Professional,2000,200,10.0,2,2,3,1,1,8,7,19.99,2024-01-20,2025-01-20,Technology,5,2024-01-22,5 
