@@ -54,7 +54,7 @@
 
 #### Step 1: Create Zapier Tables
 
-Create 4 tables in Zapier Tables (zapier.com/app/tables):
+Create 3 tables in Zapier Tables (zapier.com/app/tables):
 
 **1. Raw Data Table**
 - Stores all incoming customer events
@@ -71,6 +71,8 @@ Create 4 tables in Zapier Tables (zapier.com/app/tables):
 **4. VitalEdge Reports Table**
 - Executive intelligence reports
 - Fields: Report ID, Generated Date, Report Type, Report Content, Total Customers, ARR Data
+
+**Note**: The JavaScript algorithm contains hardcoded scoring thresholds, eliminating the need for a separate Config table. This simplifies the architecture while maintaining flexibility.
 
 ### Phase 2: Data Collection Zaps (45 minutes)
 
